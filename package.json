@@ -16,6 +16,7 @@
   "description": "",
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@types/mdast": "^4.0.4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
@@ -25,13 +26,13 @@
     "typescript": "^5"
   },
   "dependencies": {
-    "next": "16.1.0",
-    "react": "19.2.3",
-    "react-dom": "19.2.3",
-     "@refinedev/antd": "^6.0.3",
+    "@refinedev/antd": "^6.0.3",
     "@refinedev/core": "^5.0.7",
     "@supabase/supabase-js": "^2.89.0",
     "antd": "^5.29.3",
+    "next": "16.1.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
     "supabase": "^2.67.3"
   }
 }
