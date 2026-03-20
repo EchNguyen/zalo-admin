@@ -1,38 +1,28 @@
 {
-  "name": "zalo-proxy",
-  "version": "1.0.0",
+  "name": "zalo-admin",
+  "version": "0.1.0",
   "private": true,
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "dependencies": {
+    "next": "16.2.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/mdast": "^4.0.4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "babel-plugin-react-compiler": "1.0.0",
     "eslint": "^9",
-    "eslint-config-next": "16.1.0",
+    "eslint-config-next": "16.2.0",
     "tailwindcss": "^4",
     "typescript": "^5"
-  },
-  "dependencies": {
-    "@refinedev/antd": "^6.0.3",
-    "@refinedev/core": "^5.0.7",
-    "@supabase/supabase-js": "^2.89.0",
-    "antd": "^5.29.3",
-    "next": "16.1.0",
-    "react": "19.2.3",
-    "react-dom": "19.2.3",
-    "supabase": "^2.67.3"
   }
 }
