@@ -1,4 +1,4 @@
-export default function Page() {
+export default function Home() {
   return (
     <main>
       <h1>Hello Admin Panel</h1>
